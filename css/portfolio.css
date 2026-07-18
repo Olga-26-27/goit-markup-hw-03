@@ -2,6 +2,10 @@
 .portfolio-section {
    background-color: #ffffff;
    text-align: center;
+   padding-block: 120px;
+   padding-inline: 0px;
+   width: 1440px;
+   height: 1240px;
 }
 .h2-portfolio {
     font-family: "Roboto", sans-serif;
@@ -20,6 +24,8 @@ color: #2e2f42;
     display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
+  
+
 }
 .h3-portfolio {
     font-family: "Roboto", sans-serif;

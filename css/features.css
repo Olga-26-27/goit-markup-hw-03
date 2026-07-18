@@ -1,5 +1,8 @@
 .features {
     background-color: #ffffff;
+padding-top: 120px;
+padding-bottom: 120px;
+
 }
 
 .sr-only {
@@ -37,6 +40,5 @@
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-display: flex;
-gap: 24px;
+
 }

@@ -1,9 +1,19 @@
 .team {
     background: #f4f4fd;
     text-align: center;
+    display: flex;
+align-items: center;
+justify-content: flex-start;
+flex-direction: column;
+gap: 0px;
 }
 .team-case {
     background: #f4f4fd;
+    display: flex;
+align-items: center;
+justify-content: flex-start;
+flex-direction: column;
+gap: 0px;
 }
 .team-title {
     text-align: center;
@@ -28,6 +38,11 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+flex-direction: column;
+gap: 0px;
 }
 
 .team-text {
@@ -51,6 +66,7 @@ color: #434455;
     display: flex;
     gap: 24px;
     justify-content: center;
+
 }
 
 .team-item {

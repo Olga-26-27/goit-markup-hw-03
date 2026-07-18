@@ -1,4 +1,22 @@
+/* Сброс базовых стилей */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+.sr-only {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+    margin: -1px;
+  }
 
 body {
     font-family: Roboto, sans-serif;
@@ -7,10 +25,12 @@ body {
     background-color: #fff;
 }
 
-.container {max-width: 1200px;
-
+.container {max-width: 1158px;
+    margin: 0 auto;
 }
-ul {list-style: none;}
+ul {list-style: none;
+    margin: 0;
+    padding-left: 0;}
 
 .section {
 
@@ -21,3 +41,5 @@ ul {list-style: none;}
     font-size: 32px;
 
 }
+
+h1, h2, h3, p {margin: 0;}
