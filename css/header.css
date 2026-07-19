@@ -3,10 +3,7 @@
   font-family: 'Roboto', sans-serif;
   color: #2e2f42;
   background-color: #ffffff;
-}
-.header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0;
 }
 
 .menu {
@@ -15,8 +12,6 @@ align-items: flex-start;
 justify-content: flex-start;
 flex-direction: row;
 gap: 40px;
-width: 253px;
-height: 72px;
 }
 
 .header-container {
@@ -108,9 +103,6 @@ align-items: center;
 justify-content: flex-start;
 flex-direction: row;
 gap: 40px;
-width: 344px;
-height: 72px;
-
   }
   
   .contacts-link:hover,
