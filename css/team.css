@@ -1,37 +1,12 @@
-.team {
-    background: #f4f4fd;
-    text-align: center;
-    display: flex;
-align-items: center;
-justify-content: flex-start;
-flex-direction: column;
-gap: 0px;
-border: 1px solid #000;
-padding-block: 120px;
-padding-inline: 0px;
-width: calc((100% - 3 * 24px) / 4);
-height: 732px;
-}
 .team-case {
     background: #f4f4fd;
-    display: flex;
-align-items: center;
-justify-content: flex-start;
-flex-direction: column;
-gap: 0px;
-border: 1px solid #000;
-padding-block: 120px;
-padding-inline: 0px;
-width: 1440px;
-height: 732px;
-background: #f4f4fd;
+padding: 120px 0;
 }
 .team-title {
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
 font-size: 36px;
-
 /* line-height: 40px; */ 
 line-height: 1.11111;
 letter-spacing: 0.02em;
@@ -44,17 +19,11 @@ margin-bottom: 72px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
 font-size: 20px;
-
 /* line-height: 24px; */ 
 line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
-display: flex;
-align-items: center;
-justify-content: flex-start;
-flex-direction: column;
-gap: 0px;
 }
 
 .team-text {
@@ -67,10 +36,13 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
+margin-top: 8px;
 }
 
 .team-card {
     background: #fff;
+    width: calc((100% - 3 * 24px) / 4);
+    border-radius: 0 0 4px 4px;
 }
 
 .team-list {
@@ -81,10 +53,6 @@ color: #434455;
 
 }
 
-.team-item {
-    background-color: #ffffff;
-}
-
 .member-name {
     color:#757575
 }
@@ -92,4 +60,8 @@ color: #434455;
 .member-position {
     font-size: 16px;
     color: #757575;
+}
+.card-content {
+    padding: 32px 16px;
+
 }

@@ -17,9 +17,7 @@ gap: 40px;
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  
-  
+
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
@@ -43,6 +41,7 @@ gap: 40px;
     text-decoration: none; 
     color: #4d5ae5;
     display: flex;
+    margin-right: 76px;
   }
   
   .logospan {
@@ -90,22 +89,20 @@ display: inline-block;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-display: flex;
-
-align-items: center;
-justify-content: flex-start;
-flex-direction: row;
-gap: 40px;
   }
 
-  .address-menu {
-    display: flex;
-align-items: center;
-justify-content: flex-start;
-flex-direction: row;
-gap: 40px;
+  .address-list {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   flex-direction: row;
+   gap: 40px;
   }
   
   .contacts-link:hover,
   .contacts-link:focus {
     color: #404bbf;} 
+  
+    .address-menu {
+      margin-left: auto;
+    }
