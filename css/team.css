@@ -9,7 +9,7 @@ gap: 0px;
 border: 1px solid #000;
 padding-block: 120px;
 padding-inline: 0px;
-width: 1440px;
+width: calc((100% - 3 * 24px) / 4);
 height: 732px;
 }
 .team-case {
